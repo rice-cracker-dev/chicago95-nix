@@ -10,7 +10,11 @@
     };
   };
 
-  outputs = {nixpkgs, chicago95, ...}: let
+  outputs = {
+    nixpkgs,
+    chicago95,
+    ...
+  }: let
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {

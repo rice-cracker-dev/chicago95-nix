@@ -3,6 +3,7 @@ Nix flakes for Chicago95 GTK theme
 # Installation
 
 Add this repo to your flake inputs
+
 ```nix
 {
     inputs = {
@@ -13,6 +14,7 @@ Add this repo to your flake inputs
 ```
 
 Set `gtk.theme` in home-manager
+
 ```
 {inputs, pkgs, ...}: {
     gtk.theme = {
